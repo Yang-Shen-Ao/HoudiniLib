@@ -1,0 +1,28 @@
+# Ignore everything by default
+*
+
+# Only track SkaiRobot library
+!SkaiRobot/
+!SkaiRobot/**
+
+# Only track SkaiRobot package config
+!packages/
+!packages/Skaitrobot.json
+
+# Keep .gitignore itself
+!.gitignore
+
+# Ignore HDA backups
+SkaiRobot/**/backup/
+
+# Ignore compiled and temp files
+*.pyc
+*.bak
+.OPfallbacks
+.OPdummydefs
+.createtimes
+.modtimes
+.DS_Store
+Thumbs.db
+.idea
+*.code-workspace

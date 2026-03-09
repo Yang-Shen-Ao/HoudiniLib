@@ -1,0 +1,22 @@
+# HDA backups
+**/otls/backup
+
+# Python compiled files
+*.pyc
+
+# Houdini expanded HDA metadata
+.OPfallbacks
+.OPdummydefs
+.createtimes
+.modtimes
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+
+# IDE
+.idea
+*.code-workspace
